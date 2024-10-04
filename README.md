@@ -4,7 +4,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourrepo.git
+   git clone https://github.com/phfr/vscode-venv-ipynb-starter.git
    cd yourrepo
    ```
 
