@@ -1,5 +1,7 @@
 # Jupyter Notebooks starter Repo
 
+VSCode, jupyter notebooks, venv virtual environments, git filter for not committing cell outputs, pre-commit hook for linting
+
 ## Setup Instructions
 
 1. Clone the repository:
