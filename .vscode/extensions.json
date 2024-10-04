@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "esbenp.prettier-vscode",
+    "shardulm94.trailing-spaces",
+    "njpwerner.autodocstring"
+  ]
+}

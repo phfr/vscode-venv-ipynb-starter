@@ -1,0 +1,7 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+venv
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
