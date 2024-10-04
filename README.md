@@ -3,8 +3,9 @@
 VSCode, jupyter notebooks, venv virtual environments, git filter for not committing cell outputs, pre-commit hook for linting
 
 ## Setup Instructions
+0. Fork the reposity
 
-1. Clone the repository:
+1. Clone the repository (adjust URI to your fork):
    ```bash
    git clone https://github.com/phfr/vscode-venv-ipynb-starter.git
    cd yourrepo
