@@ -67,6 +67,8 @@ VSCode, jupyter notebooks, venv virtual environments, git filter for not committ
    code .
    ```
 
+   (In case you get a command not found, you can start VS Code, hit `Cmd + Shift + P`, enter `shell command` and select `Shell Command: Install 'code' command in PATH.`)
+
 9. (Should not be required) Select the virtual environment in VS Code:
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and choose **Python: Select Interpreter**.
    - Select the `venv` you created.
