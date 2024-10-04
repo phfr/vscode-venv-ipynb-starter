@@ -5,10 +5,10 @@ VSCode, jupyter notebooks, venv virtual environments, git filter for not committ
 ## Setup Instructions
 0. Fork the reposity
 
-1. Clone the repository (adjust URI to your fork):
+1. Clone the repository (adjust URI & path to your fork):
    ```bash
    git clone https://github.com/phfr/vscode-venv-ipynb-starter.git
-   cd yourrepo
+   cd vscode-venv-ipynb-starter
    ```
 
 2. Create a virtual environment:
