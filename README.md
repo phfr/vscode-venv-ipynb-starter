@@ -3,7 +3,7 @@
 VSCode, jupyter notebooks, venv virtual environments, git filter for not committing cell outputs, pre-commit hook for linting
 
 ## Setup Instructions
-0. Fork the reposity
+0. Fork the repository
 
 1. Clone the repository (adjust URI & path to your fork):
    ```bash
@@ -43,7 +43,7 @@ VSCode, jupyter notebooks, venv virtual environments, git filter for not committ
 
 6. **Enable pre-commit hooks**
 
-   This is optional but suggested due to this enforcing some best practises.
+   This is optional but suggested due to this enforcing some best practices.
 
    This makes sure the code is properly formatted (linting) before you commit.
 
@@ -98,7 +98,8 @@ If you want to suggest extensions to other developers that might be helpful you 
 
 * `data/` – your data files
 * `notebooks/` - jupyter notebooks go here
-* `scripts/` - place for various scripts
+* `utils/` - place for reuseable code, functions, etc
+* `scripts/`– various scripts
 * `.vscode/` - settings, suggested extensions & task definition for linting
 * `.gitattributes`
   * enable nbdime for nicer diffs
