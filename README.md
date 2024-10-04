@@ -57,18 +57,23 @@ VSCode, jupyter notebooks, venv virtual environments, git filter for not committ
 
    Alternatively there is a task defined to run the formatting manually: In VSCode  Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette and enter `run task`, then choose it and press enter.
 
-7. Open the project in VS Code:
+7. Enable git filter to disable committing of cell outputs
+   ```bash
+   git config filter.nbstripout.clean "nbstripout"
+   ```
+
+8. Open the project in VS Code:
    ```bash
    code .
    ```
 
-8. (Should not be required) Select the virtual environment in VS Code:
+9. (Should not be required) Select the virtual environment in VS Code:
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and choose **Python: Select Interpreter**.
    - Select the `venv` you created.
 
-9. Open the Jupyter notebooks and run them.
+10. Open the Jupyter notebooks and run them.
 
-9. Optionally exit venv environment after finishing your work
+11. Optionally exit venv environment after finishing your work
 ```bash
 deactivate
 ```
