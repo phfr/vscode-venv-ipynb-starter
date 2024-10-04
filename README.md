@@ -40,13 +40,19 @@
 
 6. **Enable pre-commit hooks**
 
-   This is optional but forces some best practises.
+   This is optional but suggested due to this enforcing some best practises.
 
    This makes sure the code is properly formatted (linting) before you commit.
 
    ```bash
    pre-commit install
    ````
+
+   If your code gets formatted and this results in changes, the commit gets cancelled for you to review to changes.
+
+   This is expected behaviour, and you need to stage the changed files again and commit.
+
+   Alternatively there is a task defined to run the formatting manually: In VSCode  Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette and enter `run task`, then choose it and press enter.
 
 7. Open the project in VS Code:
    ```bash
@@ -82,8 +88,8 @@ If you want to suggest extensions to other developers that might be helpful you 
 
 * `data/` – your data files
 * `notebooks/` - jupyter notebooks go here
-* `scripts/` - various scripts
-* `.vscode/` - settings & suggested extensions
+* `scripts/` - place for various scripts
+* `.vscode/` - settings, suggested extensions & task definition for linting
 * `.gitattributes`
   * enable nbdime for nicer diffs
   * enable a git filter so the cell outputs are not committed (but kept locally)
